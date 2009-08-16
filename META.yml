@@ -1,6 +1,6 @@
 ---
 name: dbic-chado
-version: 0.01_01
+version: 0.01_02
 author:
   - 'Robert Buels, <rmb32@cornell.edu>'
 abstract: standard DBIx::Class layer for the Chado schema
