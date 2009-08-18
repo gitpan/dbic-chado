@@ -1,10 +1,11 @@
 NAME
-    Chado::Schema - standard DBIx::Class layer for the Chado database schema
+    Bio::Chado::Schema - standard DBIx::Class layer for the Chado database
+    schema
 
 SYNOPSIS
-      use Chado::Schema;
+      use Bio::Chado::Schema;
 
-      my $chado = Chado::Schema->connect($dsn,$user,$password);
+      my $chado = Bio::Chado::Schema->connect($dsn,$user,$password);
 
       print "number of rows in feature table: ",
             $chado->resultset('Sequence::Feature')->count,
